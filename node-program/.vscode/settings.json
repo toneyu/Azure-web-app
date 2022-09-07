@@ -1,0 +1,8 @@
+{
+  "appService.zipIgnorePattern": [
+    "node_modules{,/**}",
+    ".vscode{,/**}"
+  ],
+  "appService.defaultWebAppToDeploy": "/subscriptions/d1013fc6-d428-4525-9c85-7c751e391cd6/resourceGroups/rg_4160_stage/providers/Microsoft.Web/sites/wa-4160-VCA-dev",
+  "appService.deploySubpath": "."
+}
