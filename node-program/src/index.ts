@@ -61,7 +61,7 @@ app.post('/', async (req, res) => {
 //   const ciscoRes = await new Promise<string>((resolve, reject) => {
 //     const r = https.request(
 //       {
-//         hostname: '10.12.15.146',
+//         hostname: 'IP_address',
 //         port: 443,
 //         path: `/getxml?location=${req.query.location}`,
 //         method: 'GET',
@@ -93,7 +93,7 @@ app.post('/', async (req, res) => {
 //   const ciscoRes = await new Promise<string>((resolve, reject) => {
 //     const r = https.request(
 //       {
-//         hostname: '10.12.15.146',
+//         hostname: 'IP_Address',
 //         port: 443,
 //         path: '/putxml',
 //         method: 'POST',
@@ -203,7 +203,7 @@ server.on('listening', onListening);
 //   await new Promise((resolve, reject) => {
 //     const req = https.request(
 //       {
-//         hostname: '10.14.195.249',
+//         hostname: 'IP_Adsress',
 //         port: 443,
 //         path: '/getxml?location=/Status/RoomAnalytics/PeopleCount',
 //         method: 'GET',
@@ -238,7 +238,7 @@ server.on('listening', onListening);
 //   await new Promise((resolve, reject) => {
 //     const req = https.request(
 //       {
-//         hostname: '10.12.15.146',
+//         hostname: 'IP_Address',
 //         port: 443,
 //         path: '/putxml',
 //         method: 'POST',
